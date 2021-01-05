@@ -1,0 +1,53 @@
+State	 Unique count Perpetrators 
+Alabama                 	7260.00
+Alaska                  	2238.00
+Arizona                 	9405.00
+Arkansas                	9552.00
+California              	62574.00
+Colorado                	8977.00
+Connecticut             	8250.00
+Delaware                	1903.00
+District of Columbia    	1761.00
+Florida                 	38228.00
+Georgia                 	
+Hawaii                  	1147.00
+Idaho                   	1226.00
+Illinois                	18475.00
+Indiana                 	15173.00
+Iowa                    	8756.00
+Kansas                  	1434.00
+Kentucky                	11810.00
+Louisiana               	7086.00
+Maine                   	2806.00
+Maryland                	10762.00
+Massachusetts           	16462.00
+Michigan                	26874.00
+Minnesota               	3346.00
+Mississippi             	5120.00
+Missouri                	5108.00
+Montana                 	774.00
+Nebraska                	3012.00
+Nevada                  	4294.00
+New Hampshire           	761.00
+New Jersey              	6414.00
+New Mexico              	4775.00
+New York                	58078.00
+North Carolina          	4758.00
+North Dakota	873.00
+Ohio                    	24644.00
+Oklahoma                	7492.00
+Oregon	
+Pennsylvania            	3295.00
+Puerto Rico             	6271.00
+Rhode Island            	2541.00
+South Carolina          	8550.00
+South Dakota            	963.00
+Tennessee               	8082.00
+Texas                   	50358.00
+Utah                    	7743.00
+Vermont                 	519.00
+Virginia                	5092.00
+Washington              	5593.00
+West Virginia           	3626.00
+Wisconsin               	4061.00
+Wyoming                 	547.00
