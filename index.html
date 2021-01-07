@@ -16,22 +16,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
     <!-- style css -->
-    <link rel="stylesheet" href="statistic/css/style.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
     <!-- header section -->
     <div class="jumbotron bg-cover text-white"
-        style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(statistic/image/title_image.jpeg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+        style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(static/image/title_image.jpeg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
         <div class="container">
 
             <h1 class="text-center">Foster Care Trends in the United States</h1>
             <br>
             <hr>
             <p class="lead">We are providing an interactive website for the user to research the number of children in
-                care, the number of adoptions and the number of Termination of Parental Rights (TPR) in the United
-                States from 2010-2019 by selected state.</p>
+                care, the number of adoptions, and the number of Termination of Parental Rights (TPR) in the United
+                States from 2010-2019.</p>
         </div>
     </div>
 
@@ -41,37 +42,128 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <h2>Trends in Foster Care  2010 - 2019</h2>
+                <h3>Trends in Foster Care 2010 - 2019</h3>
                 <hr>
                 <p class="lead">Foster care in America is becoming more and more of a pressing issue on communities
-                    around the country. State agencies are becoming more and more saturated with children requiring foster care
+                    around the country. State agencies are becoming more and more saturated with children requiring
+                    foster care
                     with not enough families to take in the children affected by separation.</p>
                 <p class="lead">Every state is responsible for the administration of their own foster system; some
-                    states even subcontract this out to other community organizations. The data reported is by state by year.</p>
+                    states even subcontract this out to other community organizations. The data reported is by state by
+                    year.</p>
             </div>
             <div class="col-md-2"></div>
         </div>
         <br>
 
-        <section>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <div class="well">
-                        <h5>Select a State:</h5>
-                        <select id="selState"></select>
-                    </div>
-                </div>
-                <div class="col-md-6"></div>
+        <!-- In Care -->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h5>10-Year Trend of Children In Foster Care</h5>
+                <p>From the visualization below you see the number of children that were in foster care in the years
+                    2010 and 2019 for each state, as well as the difference in the number of children in care over that
+                    10-year period.</p>
+                <p>This allows us to see the trends for each state regarding the increase or decrease in the number of
+                    children in foster care.</p>
+                <p>This visualization indicates an overall upward trend of 4.2% nationally, and unfortunately does not
+                    take into consideration children that age out of the system.</p>
             </div>
-            <br>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
 
-            <div class="row">
-                <div id="foster-care-factsheet">
-                    <p><strong>***insert state-level data here***</strong></p>
-                </div>
+        <div class='tableauPlaceholder' id='viz1609981387068' style='position: relative'><noscript><a href='#'><img
+                        alt=' '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3_16098099765270&#47;RevChart&#47;1_rss.png'
+                        style='border: none' /></a></noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Project3_16098099765270&#47;RevChart' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3_16098099765270&#47;RevChart&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>
+        <br>
+
+        <!-- Adoption -->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h5>10-Year Trend of Adoptions</h5>
+                <p>The following visualization showed the number of adoptions in the years
+                    2010 and 2019 along with the difference in the numbers over the 10-year period.</p>
             </div>
-        </section>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+
+        <div class='tableauPlaceholder' id='viz1609987717033' style='position: relative'><noscript><a href='#'><img
+                        alt=' '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3Adopt&#47;Sheet1&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Project3Adopt&#47;Sheet1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3Adopt&#47;Sheet1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en' />
+            </object>
+        </div>
+        <br>
+
+        <!-- TPR -->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h5>10-Year Trend of TPR</h5>
+                <p>The visualization below showed the number of Termination of Parental Rights (TPR) in the years
+                    2010 and 2019 for each state, as well as the difference in the numbers over the 10-year period.</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+
+        <div class='tableauPlaceholder' id='viz1609987382319' style='position: relative'><noscript><a href='#'><img
+                        alt=' '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3TPR&#47;TPR&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Project3TPR&#47;TPR' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3TPR&#47;TPR&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en' />
+            </object>
+        </div>
+
         <br>
         <br>
 
@@ -82,7 +174,7 @@
                 <div class="col-md-8">
                     <h4>What about the future?</h4>
                     <hr>
-                    <p class="lead">Using a regression analysis from Sklearn we are going to develop a model to predict
+                    <p class="lead">We developed a model to predict
                         what the foster care needs will be 5, 10, and 20 years from now. We will be looking at
                         predicting the number of children in care as well as TPR predictions for the future as that can
                         also be used to estimate group home needs for children that age out of the foster system without
@@ -107,6 +199,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1609981387068'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1609987382319'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1609987717033'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
 </body>
 
 </html>
