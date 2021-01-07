@@ -1,0 +1,35 @@
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    /* Padding bottom by footer height */
+    padding-bottom: 80px;
+    /* background-color: darkgrey;
+    text-emphasis-color: white; */
+  }
+
+  .jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: lightgray;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+  }
