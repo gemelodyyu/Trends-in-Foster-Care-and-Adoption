@@ -7,8 +7,13 @@ html {
   body {
     /* Padding bottom by footer height */
     padding-bottom: 80px;
+    background-color: lightgray;
     /* background-color: darkgrey;
     text-emphasis-color: white; */
+  }
+
+  p {
+    text-align: justify;
   }
 
   .jumbotron-image {
@@ -18,18 +23,21 @@ html {
   }
 
   #footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%; 
     /* Set the fixed height of the footer here */
     height: 10px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     text-align: center;
-    background-color: lightgray;
+    background-color:darkgray;
   }
   
   #footer p {
     margin: 0;
-    font-size: 16px;
+    font-size: 32px;
+    font-family: cursive;
+    color: gold;
+    font-stretch: expanded;
   }
