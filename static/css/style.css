@@ -7,7 +7,7 @@ html {
   body {
     /* Padding bottom by footer height */
     padding-bottom: 80px;
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     /* background-color: darkgrey;
     text-emphasis-color: white; */
   }
@@ -16,11 +16,14 @@ html {
     text-align: justify;
   }
 
-  .jumbotron-image {
+  .jumbotron {
+    background-color: #c0c9c3;
+  }
+  /* .jumbotron-image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
   #footer {
     position: fixed;
@@ -31,13 +34,12 @@ html {
     padding-top: 20px;
     padding-bottom: 60px;
     text-align: center;
-    background-color:darkgray;
+    background-color:#c0c9c3;
   }
   
   #footer p {
     margin: 0;
-    font-size: 32px;
+    font-size: 30px;
     font-family: cursive;
-    color: gold;
     font-stretch: expanded;
   }
