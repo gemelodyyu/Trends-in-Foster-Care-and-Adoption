@@ -1,6 +1,9 @@
 # Finding Trends in Finding Forever Homes
 
 
+![title](https://user-images.githubusercontent.com/55970064/104534130-8b128900-55c8-11eb-8939-73cb5b8984eb.png)
+
+
 ## Background 
 
 
