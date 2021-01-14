@@ -25,7 +25,7 @@ Our goal is to be able to predict the future need of foster families in The Midw
 * America is the most prosperous nation in the world, yet we have a problem with the breakdown of family units resulting in a glut of children needing care.  If we can get on top of this problem in America we can then affect change in the rest of the world by providing assistance and resources where nations are not as prosperous and the need is potentially even greater
 
 
-## Our Predictions
+## Machine Learning: Trends
 
 
 Using a regression analysis from SkLearn we have developed a model to predict what the foster care needs will be in 5, 10, and 20 years from now in selected states.  We will be looking at predicting the number of children in care as well as TPR predictions for the future (which can also be used to estimate group home needs for children that age out of the foster system without being adopted).  Our analysis also included predicting the number of adoptions by state as well.  We chose some Midwestern states as a start, but the analysis could be carried out by state for every state in the nation
